@@ -1,0 +1,47 @@
+/* reset global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* definições das configurações globais*/
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+padding: 20px;
+
+}
+
+/* o componente do post - o foco do nosso estudo*/
+
+.post-card{
+
+    display: flex;
+     align-items: center;
+     gap: 20px;
+     width: 100%;
+     max-width: 200px;
+     background-color: #f0f4f8;
+     border-radius: 14px;
+     box-shadow: 0 5px 15px rgba(0, 0,0, 0.08);
+     overflow: hidden;
+
+}
+
+/* estilização dos elemetos filhos do css flexbox*/
+
+.post-image{
+
+    width: 200px;
+    height: 200;
+object-fit: cover;
+}
